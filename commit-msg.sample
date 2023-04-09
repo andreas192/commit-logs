@@ -1,0 +1,5 @@
+#!/bin/bash
+
+MSG=$(cat "${1:?Missing commit message file}")
+
+node $COMMIT_HOOKS_PATH/commit-hooks/index.js -m "$MSG"
