@@ -1,4 +1,3 @@
-import Promise from 'bluebird';
 import {parse, stringify} from 'csv';
 import fs from 'fs';
 

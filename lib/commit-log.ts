@@ -1,7 +1,7 @@
 import fs from 'fs';
 import moment from 'moment';
 
-import Csv from './csv.js';
+import Csv from './csv';
 
 const today = moment();
 

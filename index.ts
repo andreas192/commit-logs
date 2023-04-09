@@ -1,5 +1,5 @@
 import minimist from 'minimist';
-import CommitLog from './lib/commit-log.js';
+import CommitLog from './lib/commit-log';
 
 const argv = minimist(process.argv.slice(2));
 
